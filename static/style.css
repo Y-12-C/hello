@@ -1,0 +1,115 @@
+/* Apply Poppins font globally */
+body {
+     font-family: 'Poppins', sans-serif;
+     font-weight: 400;
+     color: #333;
+ }
+ 
+ /* Headings for different sections */
+ h1, h2, h3, h4 {
+     font-family: 'Poppins', sans-serif;
+     font-weight: 600; /* Slightly bolder for headings */
+     color: #6a1b9a; /* Primary custom color for headings */
+ }
+ 
+ /* Font for buttons */
+ .btn {
+     font-family: 'Poppins', sans-serif;
+     font-weight: 500;
+     text-transform: uppercase;
+     letter-spacing: 0.05em;
+ }
+ 
+ /* Font styling for table headers and text */
+ .table {
+     font-family: 'Poppins', sans-serif;
+     font-size: 1rem;
+     font-weight: 400;
+ }
+ 
+ .table th {
+     font-weight: 600;
+ }
+/* Custom Purple Theme */
+.bg-primary-custom {
+     background-color: #6a1b9a; /* Customize this purple to match the screenshot */
+     color: white;
+ }
+ 
+ .text-primary-custom {
+     color: #6a1b9a;
+ }
+ 
+ .bg-secondary-custom {
+     background-color: #f1f1f1;
+ }
+ 
+ .card-custom {
+     border-radius: 20px;
+     box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+ }
+ 
+ .card-custom h4, .card-custom h2 {
+     color: #ffffff;
+ }
+ 
+ /* Rounded buttons */
+ .btn-custom {
+     border-radius: 30px;
+     padding: 12px 20px;
+     font-size: 1.2rem;
+ }
+ 
+ /* Ensure chart container is responsive */
+#chart-container {
+     position: relative;
+     width: 100%;
+     max-width: 100%;
+     height: auto;
+     background-color: #ffffff;
+     padding: 20px;
+     border-radius: 20px;
+     box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+ }
+ 
+ /* Responsive canvas styling */
+ #expenseChart {
+     max-width: 100%;
+     height: auto;
+ }
+ 
+ 
+ /* Adjust table for modern feel */
+ .table-striped {
+     border-radius: 20px;
+     overflow: hidden;
+ }
+ 
+ .table-striped td, .table-striped th {
+     padding: 15px;
+     font-size: 1rem;
+ }
+ 
+ /* Add spacing between elements */
+ .mb-4, .my-4 {
+     margin-bottom: 2rem;
+ }
+ 
+/* Consistent Purple Theme */
+.text-primary-custom {
+     color: #6a1b9a;
+ }
+ 
+ .btn-primary-custom {
+     background-color: #6a1b9a;
+     color: white;
+     border-radius: 30px;
+     padding: 10px 20px;
+     font-size: 1.1rem;
+ }
+ 
+ .card {
+     border-radius: 20px;
+     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+ }
+  
